@@ -1,6 +1,13 @@
-const farmAnimals = 'cow horse sheep pig chicken';
+let traditionalAnimals = ['cow', 'sheep', 'pig', 'chicken'];
 
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+let [cow, sheep, pig, chicken] = traditionalAnimals;
+
+console.log(cow);
+console.log(sheep);
+console.log(pig);
+console.log(chicken);
+
+let rainbowcolors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 const muppet = {
   muppetName: 'Miss Piggy',
@@ -24,6 +31,7 @@ const nestedMuppet = {
   nestedJob: 'Host of The Muppet Show',
   nestedPartner: 'Miss Piggy'
 };
+
 
 // Strings
 
